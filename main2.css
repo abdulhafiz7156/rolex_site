@@ -1,0 +1,333 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.text-side {
+    width: 100%;
+    height: 649px;
+    cursor: pointer;
+}
+
+.card__item:hover .text-side {
+    background: rgba(0,0,0,0.3);
+}
+.page_1 {
+    margin-top: 20px;
+}
+
+.card__item__jewelry {
+    background-image: url("./images/3_row_banners_for_website_2_1_.png");
+}
+
+.card__item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 635px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.card__item__title {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+}
+
+.card__item:hover .card__item__title {
+    opacity: 1 !important;
+}
+
+
+
+.card__item_bands {
+    background-image: url("./images/2_0.jpg");
+}
+
+
+.card__item__rings {
+    background-image: url("./images/3_row_banners_for_website_1_.png");
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.df {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dff {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-text h1 {
+    text-align: center;
+}
+
+.diamonds {
+    justify-content: space-between;
+    margin: 0 310px;
+    max-width: 80%;
+}
+
+.diamond-row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.diamond-row:hover {
+    opacity: 0.7;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.all-text {
+    margin: 20px 0 40px 0;
+    padding: 15px 40px;
+    background-color: #fff;
+}
+
+.all-text:hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.page-2 {
+    background-image: url(./images/soatpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.page-2 div button {
+    color: #fff;
+    background-color: #000;
+    padding: 25px 60px;
+    position: relative;
+    left: 66%;
+    top: 380px;
+}
+
+.page-2 div button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+@media (max-width: 1600px) {
+
+    .diamonds {
+        margin: 0 245px;
+    }
+
+}
+
+@media (max-width: 1500px) {
+
+    .diamonds {
+        margin: 0 140px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+
+    .diamonds {
+        margin: 0 120px;
+    }
+
+}
+
+@media (max-width: 1230px) {
+
+    .diamonds {
+        margin: 0 107px;
+    }
+
+    .diamond-row img {
+        width: 70px;
+    }
+
+}
+
+@media (max-width: 999px) {
+
+    .diamonds {
+        margin: 0 97px;
+    }
+
+    .diamond-row img {
+        width: 50px;
+    }
+
+    .diamond-row p {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 840px) {
+
+    .diamonds {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0 170px;
+    }
+}
+
+@media (max-width: 740px) {
+
+    .diamonds {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0 145px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .diamonds {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0 125px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .diamonds {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0 100px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .diamonds {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0 70px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .diamonds {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0 50px;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .cart__items > * {
+        padding: 0;
+        margin: 0;
+    }
+    .cart__items {
+        display: block !important;
+    }
+    .text-side {
+        background: rgba(0,0,0,0.3);
+    }
+    .card__item__title {
+        opacity: 1 !important;
+    }
+
+    .card__item {
+        width: 100%;
+        height: 1213px;
+    }
+
+    .text-side {
+        width: 100%;
+        height: 1213px;
+    }
+
+    .card__item__title {
+        min-height: 1213px;
+    }
+
+}
+
+@media (max-width: 944px) {
+    .page-2 {
+        background-image: url("https://s3.amazonaws.com/ISHOWIMAGES/TUDOR/Banners/tudor-768x768.jpg");
+    }
+    .page-2 div button {
+        left: 60%;
+    }
+}
+
+@media (max-width: 800px) {
+    .card__item {
+        width: 100%;
+        height: 900px;
+    }
+
+    .text-side {
+        width: 100%;
+        height: 900px;
+    }
+
+    .card__item__title {
+        min-height: 900px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card__item {
+        width: 100%;
+        height: 675px;
+    }
+
+    .text-side {
+        width: 100%;
+        height: 675px;
+    }
+
+    .card__item__title {
+        min-height: 675px;
+    }
+}
+
+@media (max-width: 500px) {
+    .card__item {
+        width: 100%;
+        height: 450px;
+    }
+
+    .text-side {
+        width: 100%;
+        height: 450px;
+    }
+
+    .card__item__title {
+        min-height: 450px;
+    }
+    .page-2 div button {
+        left: 53%;
+    }
+}
